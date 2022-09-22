@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+
+
+.title_home{
+    color: #ea8025 ;
+}
+.more_infor a{
+    border: 5px solid #ea8025;
+    color: #ea8025;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.new_product{
+    background-color: #98989826;
+}
+.content h1, .content h4{
+    color: #fff;
+    font-weight: 700;
+}
+.content{
+    position: absolute;
+    bottom: 0;
+    left: 3%;
+}
+.box-img{
+    overflow: hidden;
+}
+.box-img img{
+    transition: 1s;
+}
+.box-img:hover img{
+    transform: scale(1.05);
+}
+.Sandwich{
+    margin-top: 30px;
+}
+.evaluate i{
+    color: yellow;
+}
+.evaluate p{
+    font-size: 10px;
+}
+.title_product h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.price_product span{
+    text-decoration: line-through;
+
+}
