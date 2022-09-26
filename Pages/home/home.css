@@ -55,3 +55,79 @@
     text-decoration: line-through;
 
 }
+.specialist{
+    background-image: url('http://www.nicdarkthemes.com/themes/restaurant/wp/demo/italian-food/wp-content/uploads/sites/4/2019/01/para-08.jpg');
+    color: #fff;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+.content-speacialist{
+    position: absolute;
+    /* right: 0; */
+    top: 25%;
+    z-index: 1;
+}
+.specialist::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(99, 95, 95, 0.233);
+}
+.content-speacialist a{
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #ea8025;
+    padding: 10px 20px;
+    font-weight: 700;
+    background-color: #ea8025;
+}
+.title_owner h3:hover, .title_owner h6:hover{
+    color: #ea8025;
+}
+.title_owner a{
+    color: #ea8025;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 3px solid #ea8025;
+}
+.list-cooker{
+    width: 100%;
+    display: inline-block;
+    transform: translateY(-100px);
+}
+.getUpdate{
+    background-image: url('https://cdn.shopify.com/s/files/1/0301/5648/8842/files/bgnews_bb0b2283-c476-4af2-84f2-c9a700bba65f.jpg?v=1613680042');
+    color: #fff;
+    padding: 50px 0;
+}
+.getUpdate input{
+    padding: 7px;
+    width: 30%;
+    outline: none;
+}
+.seend i{
+    color: #fff;
+    border: 1px solid #ea8025;
+    padding: 11px;
+    background: #ea8025;
+}
+@media screen and (max-width:1440px){
+    .specialist h6{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:1024px){
+    .specialist h6{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:769px){
+    .specialist h6{
+        width: 100% !important;
+    }
+}
