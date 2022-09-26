@@ -1,30 +1,3 @@
-.form {
-    padding: 30px 30px;
-}
-
-.form-control {
-    border: none;
-    /* border: 3px solid #ebe1e1; */
-    background-color: #f9f8f8;
-}
-
-.nut1 {
-    text-align: right;
-}
-
-.nut {
-    border-radius: 5px;
-    background-color: #be9667;
-    color: white;
-    border: none;
-}
-
-.chu {
-    color: #be9667;
-    font-family: Habibi;
-    font-weight: 750;
-}
-
 .banner {
     background-image: url('https://cdn.shopify.com/s/files/1/0301/5648/8842/files/breadcrumb.jpg?v=1579081409');
     /* height: 310px; */
